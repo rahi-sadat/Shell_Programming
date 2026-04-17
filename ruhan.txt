@@ -1,0 +1,26 @@
+echo "Demonstration of looping using the for loop and a list of car names"
+   j=5
+  while (( j>0 ))
+  do 
+    read num
+	
+	if (( j == 5 ))
+	then
+	max=$num
+	min=$num
+	else
+	if ((num > max ))
+	 then
+	 max=$num
+	 fi
+	
+		if ((num < min ))
+	 then
+	 min=$num
+	 fi
+	fi
+	 j=$((j - 1))
+  done
+  
+  echo "Largest number: $max"
+echo "Smallest number: $min"

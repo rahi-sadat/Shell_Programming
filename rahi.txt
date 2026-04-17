@@ -1,0 +1,7 @@
+name=John
+car="Ford Escort"
+num=2 
+ #Display the contents of the variables
+ echo "My name is $name"
+ echo "$num is even "
+ echo "I drive a $car."
